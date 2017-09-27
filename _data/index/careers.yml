@@ -1,17 +1,46 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Goldman Sachs
+    detail: Lucideus Inc
     i18n: company_a
   desc:
-    detail: Worked in the Securities Division
+    detail: Worked on system hardening of various technology stacks
     i18n: company_a_desc
   date:
-    detail: May. 2017
+    detail: May-July 2017
     i18n: company_a_date
   job:
-    detail: Summer Analyst
+    detail: Intern
     i18n: company_a_job
+  icon: fa-plus-square
+
+- name:
+    detail: IIT Kanpur New York Office
+    i18n: company_b
+  desc:
+    detail: Worked on Anaylsis of Attacks on Darknet 
+    i18n: company_b_desc
+  date:
+    detail: May-July 2016
+    i18n: company_b_date
+  job:
+    detail: Research Track Exploration (RTE) Intern
+    i18n: company_b_job
+  icon: fa-plus-square
+
+
+- name:
+    detail: IIT Kanpur New York Office
+    i18n: company_b
+  desc:
+    detail: Worked on news feed generation
+    i18n: company_b_desc
+  date:
+    detail: May-July 2016
+    i18n: company_b_date
+  job:
+    detail: Machine Learning Intern
+    i18n: company_b_job
   icon: fa-plus-square
 
 - name:
@@ -21,7 +50,7 @@
     detail: Currently pursuing my B.Tech. degree here
     i18n: company_b_desc
   date:
-    detail: July. 2014
+    detail: July 2014 - June 2018 (expected)
     i18n: company_b_date
   job:
     detail: CSE Undergraduate
