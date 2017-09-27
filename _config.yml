@@ -1,23 +1,23 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: Anuj Nagpal CSE IITK
-description: Homepage of Anuj Nagpal, IIT Kanpur  
-keywords: Anuj,Nagpal,CSE,IITK,Jekyll,anujnag
+title: Nikhil Vanjani CSE IITK
+description: Homepage of Nikhil Vanjani, IIT Kanpur  
+keywords: Nikhil,Vanjani,CSE,IITK,Jekyll,anujnag
 baseurl:   # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
-url: http://anujnag.github.io  # url should be changed to 'http://www.jack003.com/homepage' as before
+url: http://nikhilvanjani.github.io  # url should be changed to 'http://www.jack003.com/homepage' as before
 # url: http://127.0.0.1:4000
 img_path: ./static/assets/img/blog  # url should be changed to '/homepage/static/assets/img/blog' as before
 
 # author -- index page "about me" section
 author:  # change following line to your infomation.
-  name: Anuj Nagpal  # Be used at blog posts' author.
-  first_name: Anuj # Be used at index page about me section.
-  last_name: Nagpal  # Be used at index page about me section.
-  cv: Resume_Anuj.pdf  # A online CV can be printed as PDF, leave blank if you don't have now
-  email: anujnagpal96@gmail.com  # Leave blank if you don't have now
-  facebook_username: anuj.nagpal.731  # Leave blank if you don't have now
-  github_username: anujnag  # Leave blank if you don't have now
+  name: Nikhil Vanjani  # Be used at blog posts' author.
+  first_name: Nikhil # Be used at index page about me section.
+  last_name: Vanjani # Be used at index page about me section.
+  cv: Resume_Nikhil.pdf  # A online CV can be printed as PDF, leave blank if you don't have now
+  email: nikhilvanjani61@gmail.com  # Leave blank if you don't have now
+  facebook_username: vanjaninikhil  # Leave blank if you don't have now
+  github_username: nikhilvanjani  # Leave blank if you don't have now
   avatar: /static/assets/img/landing/DP.jpg  # upload your avatar at directory and edit it.
   skill_icon1:
     - name: icon-apache
@@ -25,7 +25,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-linux
     - name: icon-apache
-  desc: Hi! Anuj Nagpal here! I am a 4th year Computer Science and Engineering Undergraduate at IIT Kanpur.
+  desc: Hi! This is Nikhil Vanjani, a 4th year Computer Science and Engineering Undergraduate at IIT Kanpur.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
