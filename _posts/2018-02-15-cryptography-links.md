@@ -1,6 +1,6 @@
 ---
 layout: inner
-title: 'My First Post on Jekyll'
+title: 'Cryptography Links'
 date: 2018-02-15
 categories: cryptography
 tags: cryptography
