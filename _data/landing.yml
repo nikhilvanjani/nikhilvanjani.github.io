@@ -19,17 +19,17 @@
   css: team
 
  
-#- id: projects
-#  i18n: nav.projects
-#  name: Projects
-#  tpl: projects.html
-#  css: project
-
-- id: blog
-  i18n: nav.blog
+- id: projects
+  i18n: nav.projects
   name: Resume
   tpl: resume.html
-  css: testimonials navy-section
+  css: project
+
+#- id: blog
+#  i18n: nav.blog
+#  name: Resume
+#  tpl: resume.html
+#  css: testimonials navy-section
 
 - id: blog
   i18n: nav.blog
