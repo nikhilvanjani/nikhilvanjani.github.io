@@ -35,7 +35,7 @@
   i18n: nav.blog
   name: Blog
   tpl: blog.html
-  css: testimonials navy-section
+  css: project
 
 - id: links
   i18n: nav.link
