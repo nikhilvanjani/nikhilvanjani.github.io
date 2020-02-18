@@ -1,6 +1,49 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
+    detail: IIT Madras
+    i18n: company_a
+  desc:
+    detail: Working on design and development of blockchain-based technologies
+    i18n: company_a_desc
+  date:
+    detail: August 2019 - Present
+    i18n: company_a_date
+  job:
+    detail: Project Associate
+    i18n: company_a_job
+  icon: fa-plus-square
+
+
+- name:
+    detail: Cohesity Inc
+    i18n: company_a
+  desc:
+    detail: Worked with Data Path and Data Protection teams
+    i18n: company_a_desc
+  date:
+    detail: June 2018 - July 2019
+    i18n: company_a_date
+  job:
+    detail: Member of Technical Staff
+    i18n: company_a_job
+  icon: fa-plus-square
+
+- name:
+    detail: IIT Kanpur
+    i18n: company_b
+  desc:
+    detail: Completed my undergraduate studies
+    i18n: company_b_desc
+  date:
+    detail: June 2018
+    i18n: company_b_date
+  job:
+    detail: B Tech in Computer Science and Engineering
+    i18n: company_b_job
+  icon: fa-plus-square
+
+- name:
     detail: Lucideus Inc
     i18n: company_a
   desc:
@@ -47,12 +90,12 @@
     detail: IIT Kanpur
     i18n: company_b
   desc:
-    detail: Currently pursuing my B.Tech. degree here
+    detail: Started my undergraduate studies
     i18n: company_b_desc
   date:
-    detail: July 2014 - June 2018 (expected)
+    detail: July 2014
     i18n: company_b_date
   job:
-    detail: CSE Undergraduate
+    detail: B Tech in Computer Science and Engineering
     i18n: company_b_job
   icon: fa-plus-square
