@@ -1,18 +1,12 @@
 # links section data
-- last_name: Vanjani
-  first_name: Nikhil
-  desc: Facebook
+- desc: Email
+  email: nikhilvanjani61@gmail.com
+
+- desc: Facebook
   website: https://www.facebook.com/vanjaninikhil
-  email: nikhilvanjani61@gmail.com
 
-- last_name: Vanjani
-  first_name: Nikhil
-  desc: Quora
+- desc: Quora
   website: https://www.quora.com/profile/Nikhil-Vanjani
-  email: nikhilvanjani61@gmail.com
 
-- last_name: Vanjani
-  first_name: Nikhil
-  desc: GitHub
+- desc: GitHub
   website: https://github.com/nikhilvanjani
-  email: nikhilvanjani61@gmail.com
