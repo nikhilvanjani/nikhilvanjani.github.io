@@ -4,13 +4,13 @@
     detail: Carnegie Mellon University
     i18n: company_a
   desc:
-    detail: Pursuing MS in Information Security
+    detail: Masters Thesis on Multi-Client Functional Encryption
     i18n: company_a_desc
   date:
     detail: August 2020 - Present
     i18n: company_a_date
   job:
-    detail: Graduate Student
+    detail: MS in Information Security
     i18n: company_a_job
   icon: fa-plus-square
 
