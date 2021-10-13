@@ -25,7 +25,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-linux
     - name: icon-apache
-  desc: Hi! This is Nikhil Vanjani, a Masters student at Carnegie Mellon University. I am fortunate to be advised by Dr. Elaine Shi for my masters thesis on functional encryption. I completed my B Tech in Computer Science and Engineering from IIT Kanpur, India in 2018. My research interests are in Cryptography and Blockchains, and I am generally interested in Theoretical Computer Science and Cyber Security.
+  desc: Hi! I am pursuing MS in Infomation Security at Carnegie Mellon University. I am fortunate to be advised by Dr. Elaine Shi for my masters thesis on functional encryption. I completed my B Tech in Computer Science and Engineering from IIT Kanpur, India in 2018. My research interests are in Cryptography and Blockchains, and I am generally interested in Theoretical Computer Science and Cyber Security.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
