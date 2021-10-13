@@ -25,7 +25,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-linux
     - name: icon-apache
-  desc: Hi! This is Nikhil Vanjani, a Project Associate at Indian Institute of Technology (IIT) Madras, India. I am working in the cryptography group with Dr Shweta Agrawal. I completed my B Tech in Computer Science and Engineering from IIT Kanpur, India in 2018. My research interests are in Cryptography and Blockchains, and I am generally interested in Theoretical Computer Science and Cyber Security. I am working in collboration with Election Commission of India to develop a blockchain-based E-Voting system to enable voters to vote from anywhere at anytime. I am also working on constructing homomorhic signatures for uniform models of computation from standard assumptions.
+  desc: Hi! This is Nikhil Vanjani, a Masters student at Carnegie Mellon University. I am fortunate to be advised by Dr. Elaine Shi for my masters thesis on functional encryption. I completed my B Tech in Computer Science and Engineering from IIT Kanpur, India in 2018. My research interests are in Cryptography and Blockchains, and I am generally interested in Theoretical Computer Science and Cyber Security.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.

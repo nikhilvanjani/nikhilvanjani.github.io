@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: Cryptography, Cyber Security, Blockchain Technology, Quantum Computing, Data Sciences, Algorithms
-percentage: 90, 70, 80, 60, 50, 60
+aspects: Algorithms, Blockchains, Cryptography, Cyber Security, Distributed Systems, Game Theory, Quantum Computing
+percentage: 80, 90, 100, 40, 60, 50, 70
