@@ -1,7 +1,7 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Theory Group, Algorand
+    detail: Theory Group, Algorand Inc
     i18n: company_a
   desc:
     detail: Investigated about cryptographic tools needed to enable building complex and powerful Layer 2 Smart Contracts in AlgoClarity
