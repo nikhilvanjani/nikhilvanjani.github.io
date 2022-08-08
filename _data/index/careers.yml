@@ -72,20 +72,6 @@
   icon: fa-plus-square
 
 - name:
-    detail: IIT Kanpur
-    i18n: company_b
-  desc:
-    detail: Completed my undergraduate studies
-    i18n: company_b_desc
-  date:
-    detail: June 2018
-    i18n: company_b_date
-  job:
-    detail: B Tech in Computer Science and Engineering
-    i18n: company_b_job
-  icon: fa-plus-square
-
-- name:
     detail: Lucideus Inc
     i18n: company_a
   desc:
@@ -135,7 +121,7 @@
     detail: Started my undergraduate studies
     i18n: company_b_desc
   date:
-    detail: July 2014
+    detail: July 2014 - June 2018
     i18n: company_b_date
   job:
     detail: B Tech in Computer Science and Engineering
