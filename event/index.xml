@@ -5,12 +5,20 @@
     <link>https://nikhilvanjani.github.io/event/</link>
       <atom:link href="https://nikhilvanjani.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 09 May 2023 09:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Dec 2023 09:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nikhilvanjani.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Talks</title>
       <link>https://nikhilvanjani.github.io/event/</link>
     </image>
+    
+    <item>
+      <title>Non-Interactive Anonymous Router with Quasi-Linear Router Computation</title>
+      <link>https://nikhilvanjani.github.io/talk/non-interactive-anonymous-router-with-quasi-linear-router-computation/</link>
+      <pubDate>Fri, 01 Dec 2023 09:00:00 +0000</pubDate>
+      <guid>https://nikhilvanjani.github.io/talk/non-interactive-anonymous-router-with-quasi-linear-router-computation/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Multi-Client Inner Product Encryption: Function-Hiding Instantiations Without Random Oracles</title>

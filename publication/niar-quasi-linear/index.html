@@ -78,9 +78,8 @@
   
     
   
-  <meta name="description" content="Anonymous routing is an important cryptographic primitive that allows users to communicate privately on the Internet, without revealing their message contents or their contacts. Until the very recent work of Shi and Wu (Eurocrypt&#39;21), all classical anonymous routing schemes are *interactive* protocols, and their security rely on a *threshold* number of the routers being honest. The recent work of Shi and Wu suggested a new abstraction called Non-Interactive Anonymous Router (NIAR), and showed how to achieve anonymous routing *non-interactively* for the first time. In particular, a *single untrusted router* receives a token which allows it to obliviously apply a permutation to a set of encrypted messages from the senders. While Shi and Wu&#39;s scheme is efficient in other dimensions, one unsatisfying aspect of their construction is that the router takes time *quadratic* in the number of senders to obliviously route their messages.
-
-In this work, we show how to construct a non-interactive anonymous router scheme with *sub-quadratic* router computation, assuming the existence of subexponential indistinguishability obfuscation and one-way permutation. To achieve this, we devise new techniques for reasoning about a *network of obfuscated programs*.
+  <meta name="description" content="Anonymous routing is an important cryptographic primitive that allows users to communicate privately on the Internet, without revealing their message contents or their contacts. Until the very recent work of Shi and Wu (Eurocrypt’21), all classical anonymous routing schemes are *interactive* protocols, and their security rely on a *threshold* number of the routers being honest. The recent work of Shi and Wu suggested a new abstraction called Non-Interactive Anonymous Router (NIAR), and showed how to achieve anonymous routing *non-interactively* for the first time. In particular, a *single untrusted router* receives a token which allows it to obliviously apply a permutation to a set of encrypted messages from the senders. Shi and Wu’s construction suffers from two drawbacks: 1) the router takes time *quadratic* in the number of senders to obliviously route their messages; and 2) the scheme is proven secure only in the presence of static corruptions.
+In this work, we show how to construct a non-interactive anonymous router scheme with *sub-quadratic* router computation, and achieving security in the presence of *adaptive corruptions*. To get this result, we assume the existence of indistinguishability obfuscation and one-way functions. Our final result is obtained through a sequence of stepping stones. First, we show how to achieve the desired efficiency, but with security under static corruption and in a selective, single-challenge setting. Then, we go through a sequence of upgrades which eventually get us the final result. We devise various new techniques along the way which lead to some additional results. In particular, our techniques for reasoning about a *network of obfuscated programs* may be of independent interest.
 " />
 
   
@@ -314,9 +313,8 @@ In this work, we show how to construct a non-interactive anonymous router scheme
   <meta property="og:site_name" content="Nikhil Vanjani" />
   <meta property="og:url" content="https://nikhilvanjani.github.io/publication/niar-quasi-linear/" />
   <meta property="og:title" content="Non-Interactive Anonymous Router with Quasi-Linear Router Computation | Nikhil Vanjani" />
-  <meta property="og:description" content="Anonymous routing is an important cryptographic primitive that allows users to communicate privately on the Internet, without revealing their message contents or their contacts. Until the very recent work of Shi and Wu (Eurocrypt&#39;21), all classical anonymous routing schemes are *interactive* protocols, and their security rely on a *threshold* number of the routers being honest. The recent work of Shi and Wu suggested a new abstraction called Non-Interactive Anonymous Router (NIAR), and showed how to achieve anonymous routing *non-interactively* for the first time. In particular, a *single untrusted router* receives a token which allows it to obliviously apply a permutation to a set of encrypted messages from the senders. While Shi and Wu&#39;s scheme is efficient in other dimensions, one unsatisfying aspect of their construction is that the router takes time *quadratic* in the number of senders to obliviously route their messages.
-
-In this work, we show how to construct a non-interactive anonymous router scheme with *sub-quadratic* router computation, assuming the existence of subexponential indistinguishability obfuscation and one-way permutation. To achieve this, we devise new techniques for reasoning about a *network of obfuscated programs*.
+  <meta property="og:description" content="Anonymous routing is an important cryptographic primitive that allows users to communicate privately on the Internet, without revealing their message contents or their contacts. Until the very recent work of Shi and Wu (Eurocrypt’21), all classical anonymous routing schemes are *interactive* protocols, and their security rely on a *threshold* number of the routers being honest. The recent work of Shi and Wu suggested a new abstraction called Non-Interactive Anonymous Router (NIAR), and showed how to achieve anonymous routing *non-interactively* for the first time. In particular, a *single untrusted router* receives a token which allows it to obliviously apply a permutation to a set of encrypted messages from the senders. Shi and Wu’s construction suffers from two drawbacks: 1) the router takes time *quadratic* in the number of senders to obliviously route their messages; and 2) the scheme is proven secure only in the presence of static corruptions.
+In this work, we show how to construct a non-interactive anonymous router scheme with *sub-quadratic* router computation, and achieving security in the presence of *adaptive corruptions*. To get this result, we assume the existence of indistinguishability obfuscation and one-way functions. Our final result is obtained through a sequence of stepping stones. First, we show how to achieve the desired efficiency, but with security under static corruption and in a selective, single-challenge setting. Then, we go through a sequence of upgrades which eventually get us the final result. We devise various new techniques along the way which lead to some additional results. In particular, our techniques for reasoning about a *network of obfuscated programs* may be of independent interest.
 " /><meta property="og:image" content="https://nikhilvanjani.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://nikhilvanjani.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
@@ -368,7 +366,7 @@ In this work, we show how to construct a non-interactive anonymous router scheme
       "url": "https://nikhilvanjani.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Anonymous routing is an important cryptographic primitive that allows users to communicate privately on the Internet, without revealing their message contents or their contacts. Until the very recent work of Shi and Wu (Eurocrypt'21), all classical anonymous routing schemes are *interactive* protocols, and their security rely on a *threshold* number of the routers being honest. The recent work of Shi and Wu suggested a new abstraction called Non-Interactive Anonymous Router (NIAR), and showed how to achieve anonymous routing *non-interactively* for the first time. In particular, a *single untrusted router* receives a token which allows it to obliviously apply a permutation to a set of encrypted messages from the senders. While Shi and Wu's scheme is efficient in other dimensions, one unsatisfying aspect of their construction is that the router takes time *quadratic* in the number of senders to obliviously route their messages.\n\nIn this work, we show how to construct a non-interactive anonymous router scheme with *sub-quadratic* router computation, assuming the existence of subexponential indistinguishability obfuscation and one-way permutation. To achieve this, we devise new techniques for reasoning about a *network of obfuscated programs*.\n"
+  "description": "Anonymous routing is an important cryptographic primitive that allows users to communicate privately on the Internet, without revealing their message contents or their contacts. Until the very recent work of Shi and Wu (Eurocrypt’21), all classical anonymous routing schemes are *interactive* protocols, and their security rely on a *threshold* number of the routers being honest. The recent work of Shi and Wu suggested a new abstraction called Non-Interactive Anonymous Router (NIAR), and showed how to achieve anonymous routing *non-interactively* for the first time. In particular, a *single untrusted router* receives a token which allows it to obliviously apply a permutation to a set of encrypted messages from the senders. Shi and Wu’s construction suffers from two drawbacks: 1) the router takes time *quadratic* in the number of senders to obliviously route their messages; and 2) the scheme is proven secure only in the presence of static corruptions.\nIn this work, we show how to construct a non-interactive anonymous router scheme with *sub-quadratic* router computation, and achieving security in the presence of *adaptive corruptions*. To get this result, we assume the existence of indistinguishability obfuscation and one-way functions. Our final result is obtained through a sequence of stepping stones. First, we show how to achieve the desired efficiency, but with security under static corruption and in a selective, single-challenge setting. Then, we go through a sequence of upgrades which eventually get us the final result. We devise various new techniques along the way which lead to some additional results. In particular, our techniques for reasoning about a *network of obfuscated programs* may be of independent interest.\n"
 }
 </script>
 
@@ -827,9 +825,29 @@ In this work, we show how to construct a non-interactive anonymous router scheme
 
 
 
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="/uploads/niar-quasi-linear.pptx" target="_blank" rel="noopener">
+  Slides
+</a>
 
 
 
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/Ms853nfSAh8?si=azew_K8WSfvlBfg7&amp;t=952" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/https://doi.org/10.1007/978-3-031-48621-0_3" target="_blank" rel="noopener">
+  DOI
+</a>
 
 
   
@@ -859,9 +877,8 @@ In this work, we show how to construct a non-interactive anonymous router scheme
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract"><p>Anonymous routing is an important cryptographic primitive that allows users to communicate privately on the Internet, without revealing their message contents or their contacts. Until the very recent work of Shi and Wu (Eurocrypt'21), all classical anonymous routing schemes are <em>interactive</em> protocols, and their security rely on a <em>threshold</em> number of the routers being honest. The recent work of Shi and Wu suggested a new abstraction called Non-Interactive Anonymous Router (NIAR), and showed how to achieve anonymous routing <em>non-interactively</em> for the first time. In particular, a <em>single untrusted router</em> receives a token which allows it to obliviously apply a permutation to a set of encrypted messages from the senders. While Shi and Wu&rsquo;s scheme is efficient in other dimensions, one unsatisfying aspect of their construction is that the router takes time <em>quadratic</em> in the number of senders to obliviously route their messages.</p>
-<p>In this work, we show how to construct a non-interactive anonymous router scheme with <em>sub-quadratic</em> router computation, assuming the existence of subexponential indistinguishability obfuscation and one-way permutation. To achieve this, we devise new techniques for reasoning about a <em>network of obfuscated programs</em>.</p>
-</p>
+    <p class="pub-abstract">Anonymous routing is an important cryptographic primitive that allows users to communicate privately on the Internet, without revealing their message contents or their contacts. Until the very recent work of Shi and Wu (Eurocrypt’21), all classical anonymous routing schemes are <em>interactive</em> protocols, and their security rely on a <em>threshold</em> number of the routers being honest. The recent work of Shi and Wu suggested a new abstraction called Non-Interactive Anonymous Router (NIAR), and showed how to achieve anonymous routing <em>non-interactively</em> for the first time. In particular, a <em>single untrusted router</em> receives a token which allows it to obliviously apply a permutation to a set of encrypted messages from the senders. Shi and Wu’s construction suffers from two drawbacks: 1) the router takes time <em>quadratic</em> in the number of senders to obliviously route their messages; and 2) the scheme is proven secure only in the presence of static corruptions.
+In this work, we show how to construct a non-interactive anonymous router scheme with <em>sub-quadratic</em> router computation, and achieving security in the presence of <em>adaptive corruptions</em>. To get this result, we assume the existence of indistinguishability obfuscation and one-way functions. Our final result is obtained through a sequence of stepping stones. First, we show how to achieve the desired efficiency, but with security under static corruption and in a selective, single-challenge setting. Then, we go through a sequence of upgrades which eventually get us the final result. We devise various new techniques along the way which lead to some additional results. In particular, our techniques for reasoning about a <em>network of obfuscated programs</em> may be of independent interest.</p>
     
 
     
@@ -872,8 +889,8 @@ In this work, we show how to construct a non-interactive anonymous router scheme
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="/publication/#3">
-              Preprint
+            <a href="/publication/#1">
+              Conference paper
             </a>
           </div>
         </div>
@@ -889,7 +906,7 @@ In this work, we show how to construct a non-interactive anonymous router scheme
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In <strong>Theory of Cryptography Conference (TCC)</strong>, 2023 (To appear)</div>
+          <div class="col-12 col-md-9">In <strong>Theory of Cryptography Conference (TCC)</strong>, 2023</div>
         </div>
       </div>
       <div class="col-md-1"></div>
