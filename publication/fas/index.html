@@ -78,7 +78,11 @@
   
     
   
-  <meta name="description" content="" />
+  <meta name="description" content=" In scenarios where a seller holds sensitive data *x*, like employee / patient records or ecological data, and a buyer seeks to obtain an evaluation of specific function *f* on this data, solutions in trustless digital environments like blockchain-based Web3 systems typically fall into two categories: (1) Smart contract-powered solutions and (2) cryptographic solutions leveraging tools such as adaptor signatures. The former approach offers atomic transactions where the buyer learns the function evaluation *f(x)* (and not *x* entirely) upon payment. However, this approach is often inefficient, costly, lacks privacy for the seller&#39;s data, and is incompatible with systems that do not support smart contracts with required functionalities. In contrast, the adaptor signature-based approach addresses all of the above issues but comes with an ``all-or-nothing&#39;&#39; guarantee, where the buyer fully extracts *x* and does not support functional extraction of the sensitive data. In this work, we aim to bridge the gap between these approaches, developing a solution that enables fair functional sales of information while offering improved efficiency, privacy, and compatibility similar to adaptor signatures.
+
+Towards this, we propose *functional adaptor signatures (FAS)* a novel cryptographic primitive that achieves all the desired properties as listed above. Using FAS, the seller can publish an advertisement committing to *x*. The buyer can pre-sign the payment transaction w.r.t. a function *f*, and send it along with the transaction to the seller. The seller adapts the pre-signature into a valid (buyer&#39;s) signature and posts the payment and the adapted signature on the blockchain to get paid. Finally, using the pre-signature and the posted signature, the buyer efficiently extracts *f(x)*, and completes the sale. We formalize the security properties of FAS, among which is a new notion called *witness privacy* to capture seller&#39;s privacy, which ensures the buyer does not learn anything beyond *f(x)*. We present multiple variants of witness privacy, namely, *witness hiding, witness indistinguishability*, and *zero-knowledge*, to capture varying levels of leakage about *x* beyond *f(x)* to a malicious buyer.
+
+We introduce two efficient constructions of FAS supporting linear functions (like statistics/aggregates, kernels in machine learning, etc.), that satisfy the strongest notion of witness privacy. One construction is based on prime-order groups and compatible with Schnorr signatures for payments, and the other is based on lattices and compatible with a variant of Lyubashevsky&#39;s signature scheme. A central conceptual contribution of our work lies in revealing a surprising connection between functional encryption, a well-explored concept over the past decade, and adaptor signatures, a relatively new primitive in the cryptographic landscape. On a technical level, we avoid heavy cryptographic machinery and achieve improved efficiency, by making black-box use of building blocks like *inner product functional encryption (IPFE)* while relying on certain security-enhancing techniques for the IPFE in a non-black-box manner. We implement our FAS construction for Schnorr signatures and show that for reasonably sized seller witnesses, the different operations are quite efficient even for commodity hardware. " />
 
   
   <link rel="alternate" hreflang="en-us" href="https://nikhilvanjani.github.io/publication/fas/" />
@@ -311,7 +315,11 @@
   <meta property="og:site_name" content="Nikhil Vanjani" />
   <meta property="og:url" content="https://nikhilvanjani.github.io/publication/fas/" />
   <meta property="og:title" content="Functional Adaptor Signatures: Beyond All-or-Nothing Blockchain-based Payments | Nikhil Vanjani" />
-  <meta property="og:description" content="" /><meta property="og:image" content="https://nikhilvanjani.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
+  <meta property="og:description" content=" In scenarios where a seller holds sensitive data *x*, like employee / patient records or ecological data, and a buyer seeks to obtain an evaluation of specific function *f* on this data, solutions in trustless digital environments like blockchain-based Web3 systems typically fall into two categories: (1) Smart contract-powered solutions and (2) cryptographic solutions leveraging tools such as adaptor signatures. The former approach offers atomic transactions where the buyer learns the function evaluation *f(x)* (and not *x* entirely) upon payment. However, this approach is often inefficient, costly, lacks privacy for the seller&#39;s data, and is incompatible with systems that do not support smart contracts with required functionalities. In contrast, the adaptor signature-based approach addresses all of the above issues but comes with an ``all-or-nothing&#39;&#39; guarantee, where the buyer fully extracts *x* and does not support functional extraction of the sensitive data. In this work, we aim to bridge the gap between these approaches, developing a solution that enables fair functional sales of information while offering improved efficiency, privacy, and compatibility similar to adaptor signatures.
+
+Towards this, we propose *functional adaptor signatures (FAS)* a novel cryptographic primitive that achieves all the desired properties as listed above. Using FAS, the seller can publish an advertisement committing to *x*. The buyer can pre-sign the payment transaction w.r.t. a function *f*, and send it along with the transaction to the seller. The seller adapts the pre-signature into a valid (buyer&#39;s) signature and posts the payment and the adapted signature on the blockchain to get paid. Finally, using the pre-signature and the posted signature, the buyer efficiently extracts *f(x)*, and completes the sale. We formalize the security properties of FAS, among which is a new notion called *witness privacy* to capture seller&#39;s privacy, which ensures the buyer does not learn anything beyond *f(x)*. We present multiple variants of witness privacy, namely, *witness hiding, witness indistinguishability*, and *zero-knowledge*, to capture varying levels of leakage about *x* beyond *f(x)* to a malicious buyer.
+
+We introduce two efficient constructions of FAS supporting linear functions (like statistics/aggregates, kernels in machine learning, etc.), that satisfy the strongest notion of witness privacy. One construction is based on prime-order groups and compatible with Schnorr signatures for payments, and the other is based on lattices and compatible with a variant of Lyubashevsky&#39;s signature scheme. A central conceptual contribution of our work lies in revealing a surprising connection between functional encryption, a well-explored concept over the past decade, and adaptor signatures, a relatively new primitive in the cryptographic landscape. On a technical level, we avoid heavy cryptographic machinery and achieve improved efficiency, by making black-box use of building blocks like *inner product functional encryption (IPFE)* while relying on certain security-enhancing techniques for the IPFE in a non-black-box manner. We implement our FAS construction for Schnorr signatures and show that for reasonably sized seller witnesses, the different operations are quite efficient even for commodity hardware. " /><meta property="og:image" content="https://nikhilvanjani.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://nikhilvanjani.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -362,7 +370,7 @@
       "url": "https://nikhilvanjani.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": ""
+  "description": " In scenarios where a seller holds sensitive data *x*, like employee / patient records or ecological data, and a buyer seeks to obtain an evaluation of specific function *f* on this data, solutions in trustless digital environments like blockchain-based Web3 systems typically fall into two categories: (1) Smart contract-powered solutions and (2) cryptographic solutions leveraging tools such as adaptor signatures. The former approach offers atomic transactions where the buyer learns the function evaluation *f(x)* (and not *x* entirely) upon payment. However, this approach is often inefficient, costly, lacks privacy for the seller's data, and is incompatible with systems that do not support smart contracts with required functionalities. In contrast, the adaptor signature-based approach addresses all of the above issues but comes with an ``all-or-nothing'' guarantee, where the buyer fully extracts *x* and does not support functional extraction of the sensitive data. In this work, we aim to bridge the gap between these approaches, developing a solution that enables fair functional sales of information while offering improved efficiency, privacy, and compatibility similar to adaptor signatures.\n\nTowards this, we propose *functional adaptor signatures (FAS)* a novel cryptographic primitive that achieves all the desired properties as listed above. Using FAS, the seller can publish an advertisement committing to *x*. The buyer can pre-sign the payment transaction w.r.t. a function *f*, and send it along with the transaction to the seller. The seller adapts the pre-signature into a valid (buyer's) signature and posts the payment and the adapted signature on the blockchain to get paid. Finally, using the pre-signature and the posted signature, the buyer efficiently extracts *f(x)*, and completes the sale. We formalize the security properties of FAS, among which is a new notion called *witness privacy* to capture seller's privacy, which ensures the buyer does not learn anything beyond *f(x)*. We present multiple variants of witness privacy, namely, *witness hiding, witness indistinguishability*, and *zero-knowledge*, to capture varying levels of leakage about *x* beyond *f(x)* to a malicious buyer.\n\nWe introduce two efficient constructions of FAS supporting linear functions (like statistics/aggregates, kernels in machine learning, etc.), that satisfy the strongest notion of witness privacy. One construction is based on prime-order groups and compatible with Schnorr signatures for payments, and the other is based on lattices and compatible with a variant of Lyubashevsky's signature scheme. A central conceptual contribution of our work lies in revealing a surprising connection between functional encryption, a well-explored concept over the past decade, and adaptor signatures, a relatively new primitive in the cryptographic landscape. On a technical level, we avoid heavy cryptographic machinery and achieve improved efficiency, by making black-box use of building blocks like *inner product functional encryption (IPFE)* while relying on certain security-enhancing techniques for the IPFE in a non-black-box manner. We implement our FAS construction for Schnorr signatures and show that for reasonably sized seller witnesses, the different operations are quite efficient even for commodity hardware. "
 }
 </script>
 
@@ -795,8 +803,14 @@
 
 
   
+    
+  
 
 
+
+<a class="btn btn-outline-primary btn-page-header" href="/uploads/functional-adaptor-signatures.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
 
@@ -817,6 +831,24 @@
 
 
 
+<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/10.1145/3658644.3690240" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://eprint.iacr.org/2024/1523" target="_blank" rel="noopener">
+    ePrint</a>
 
 
 </div>
@@ -829,6 +861,12 @@
 
   <div class="article-container">
 
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract"><p>In scenarios where a seller holds sensitive data <em>x</em>, like employee / patient records or ecological data, and a buyer seeks to obtain an evaluation of specific function <em>f</em> on this data, solutions in trustless digital environments like blockchain-based Web3 systems typically fall into two categories: (1) Smart contract-powered solutions and (2) cryptographic solutions leveraging tools such as adaptor signatures. The former approach offers atomic transactions where the buyer learns the function evaluation <em>f(x)</em> (and not <em>x</em> entirely) upon payment. However, this approach is often inefficient, costly, lacks privacy for the seller&rsquo;s data, and is incompatible with systems that do not support smart contracts with required functionalities. In contrast, the adaptor signature-based approach addresses all of the above issues but comes with an ``all-or-nothing&rsquo;&rsquo; guarantee, where the buyer fully extracts <em>x</em> and does not support functional extraction of the sensitive data. In this work, we aim to bridge the gap between these approaches, developing a solution that enables fair functional sales of information while offering improved efficiency, privacy, and compatibility similar to adaptor signatures.</p>
+<p>Towards this, we propose <em>functional adaptor signatures (FAS)</em> a novel cryptographic primitive that achieves all the desired properties as listed above. Using FAS, the seller can publish an advertisement committing to <em>x</em>. The buyer can pre-sign the payment transaction w.r.t. a function <em>f</em>, and send it along with the transaction to the seller. The seller adapts the pre-signature into a valid (buyer&rsquo;s) signature and posts the payment and the adapted signature on the blockchain to get paid. Finally, using the pre-signature and the posted signature, the buyer efficiently extracts <em>f(x)</em>, and completes the sale. We formalize the security properties of FAS, among which is a new notion called <em>witness privacy</em> to capture seller&rsquo;s privacy, which ensures the buyer does not learn anything beyond <em>f(x)</em>. We present multiple variants of witness privacy, namely, <em>witness hiding, witness indistinguishability</em>, and <em>zero-knowledge</em>, to capture varying levels of leakage about <em>x</em> beyond <em>f(x)</em> to a malicious buyer.</p>
+<p>We introduce two efficient constructions of FAS supporting linear functions (like statistics/aggregates, kernels in machine learning, etc.), that satisfy the strongest notion of witness privacy. One construction is based on prime-order groups and compatible with Schnorr signatures for payments, and the other is based on lattices and compatible with a variant of Lyubashevsky&rsquo;s signature scheme. A central conceptual contribution of our work lies in revealing a surprising connection between functional encryption, a well-explored concept over the past decade, and adaptor signatures, a relatively new primitive in the cryptographic landscape. On a technical level, we avoid heavy cryptographic machinery and achieve improved efficiency, by making black-box use of building blocks like <em>inner product functional encryption (IPFE)</em> while relying on certain security-enhancing techniques for the IPFE in a non-black-box manner. We implement our FAS construction for Schnorr signatures and show that for reasonably sized seller witnesses, the different operations are quite efficient even for commodity hardware.</p>
+</p>
     
 
     
