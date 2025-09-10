@@ -78,16 +78,14 @@
   
     
   
-  <meta name="description" content="In a Multi-Client Functional Encryption (MCFE) scheme,  *n* clients each obtain a secret encryption key from  a trusted authority. During each time step *t*, each client *i* can encrypt its data using its secret key. The authority can use its master secret key to compute  a functional key given a function *f*, and the functional key can be applied to a collection of *n* clients&#39; ciphertexts encrypted to the same time step, resulting in the outcome of *f* on the clients&#39; data. In this paper, we focus on MCFE for *inner-product* computations.
+  <meta name="description" content=" We revisit decentralized multi-authority attribute-based encryption (MA-ABE) through the lens of fully adaptive security – the most realistic setting in which an adversary can decide on-the-fly which users and which attribute authorities to corrupt. Previous constructions either tolerated only static authority corruption or relied on highly complex “dual system with dual-subsystems” proof technique that inflated ciphertexts and keys.
 
-If an MCFE scheme hides not only the clients&#39; data, but also the function *f*,  we say it is *function hiding*. Although MCFE for inner-product computation has been extensively studied,  how to achieve function privacy is still poorly understood. The very recent work of Agrawal et al. showed how to construct a *function-hiding* MCFE scheme for inner-product  assuming standard bilinear group assumptions; however, they assume the existence of a random oracle and prove only a relaxed, selective security notion. An intriguing open question is whether we can achieve function-hiding MCFE for inner-product *without* random oracles.
+Our first contribution is a streamlined security analysis showing – perhaps surprisingly – that the classic Lewko–Waters MA-ABE scheme [EUROCRYPT 2011] already achieves full adaptive security, provided its design is carefully reinterpreted and, more crucially, its security proof is re-orchestrated to conclude with an information-theoretic hybrid in place of the original target- group-based computational step. By dispensing with dual subsystems and target-group-based assumptions, we achieve a significantly simpler and tighter security proof along with a more lightweight implementation. Our construction reduces ciphertext size by 33 percent, shrinks user secret keys by 66 percent, and requires 50 percent fewer pairing operations during decryption – all while continuing to support arbitrary collusions of users and authorities. These improvements mark a notable advance over the state-of-the-art fully adaptive decentralized MA-ABE scheme of Datta et al. [EUROCRYPT 2023]. We instantiate the scheme in both composite-order bilinear groups under standard subgroup-decision assumptions and in asymmetric prime-order bilinear groups under the Matrix-Diffie–Hellman assumption. We further show how the Kowalczyk–Wee attribute-reuse technique [EUROCRYPT 2019] seamlessly lifts our construction from “one-use” boolean span programs (BSP) to “multi-use” policies computable in NC1, resulting in a similarly optimized construction over the state-of-the-art by Chen et al. [ASIACRYPT 2023].
 
-In this work, we are the first to show a function-hiding MCFE scheme for inner products, relying on standard bilinear group assumptions. Further, we prove *adaptive* security without the use of a random oracle. Our scheme also achieves succinct ciphertexts, that is,  each coordinate in the plaintext vector encrypts to only *O(1)* group elements.
-
-Our main technical contribution is a new upgrade from single-input functional encryption for inner-products to a multi-client one. Our upgrade preserves function privacy, that is, if the original single-input scheme is function-hiding, so is the resulting multi-client construction. Further, this new upgrade allows us to obtain a conceptually simple construction." />
+Going beyond the Boolean world, we present the first MA-ABE construction for arithmetic span program (ASP) access policies, capturing a richer class of Boolean, arithmetic, and combinatorial computations. This advancement also enables improved concrete efficiency by allowing attributes to be handled directly as field elements, thereby eliminating the overhead of converting arithmetic computations into Boolean representations. The construction – again presented in composite and prime orders – retains decentralization and adaptive user-key security, and highlights inherent barriers to handling corrupted authorities in the arithmetic setting. " />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://nikhilvanjani.github.io/publication/mcipe/" />
+  <link rel="alternate" hreflang="en-us" href="https://nikhilvanjani.github.io/publication/maabe_for_asp/" />
 
   
   
@@ -289,7 +287,7 @@ Our main technical contribution is a new upgrade from single-input functional en
   <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://nikhilvanjani.github.io/publication/mcipe/" />
+  <link rel="canonical" href="https://nikhilvanjani.github.io/publication/maabe_for_asp/" />
 
   
   
@@ -315,24 +313,22 @@ Our main technical contribution is a new upgrade from single-input functional en
     <meta property="twitter:creator" content="@wowchemy" />
   
   <meta property="og:site_name" content="Nikhil Vanjani" />
-  <meta property="og:url" content="https://nikhilvanjani.github.io/publication/mcipe/" />
-  <meta property="og:title" content="Multi-Client Inner Product Encryption: Function-Hiding Instantiations Without Random Oracles | Nikhil Vanjani" />
-  <meta property="og:description" content="In a Multi-Client Functional Encryption (MCFE) scheme,  *n* clients each obtain a secret encryption key from  a trusted authority. During each time step *t*, each client *i* can encrypt its data using its secret key. The authority can use its master secret key to compute  a functional key given a function *f*, and the functional key can be applied to a collection of *n* clients&#39; ciphertexts encrypted to the same time step, resulting in the outcome of *f* on the clients&#39; data. In this paper, we focus on MCFE for *inner-product* computations.
+  <meta property="og:url" content="https://nikhilvanjani.github.io/publication/maabe_for_asp/" />
+  <meta property="og:title" content="Fully Adaptive Decentralized MA-ABE: Simplified, Optimized, ASP Supported | Nikhil Vanjani" />
+  <meta property="og:description" content=" We revisit decentralized multi-authority attribute-based encryption (MA-ABE) through the lens of fully adaptive security – the most realistic setting in which an adversary can decide on-the-fly which users and which attribute authorities to corrupt. Previous constructions either tolerated only static authority corruption or relied on highly complex “dual system with dual-subsystems” proof technique that inflated ciphertexts and keys.
 
-If an MCFE scheme hides not only the clients&#39; data, but also the function *f*,  we say it is *function hiding*. Although MCFE for inner-product computation has been extensively studied,  how to achieve function privacy is still poorly understood. The very recent work of Agrawal et al. showed how to construct a *function-hiding* MCFE scheme for inner-product  assuming standard bilinear group assumptions; however, they assume the existence of a random oracle and prove only a relaxed, selective security notion. An intriguing open question is whether we can achieve function-hiding MCFE for inner-product *without* random oracles.
+Our first contribution is a streamlined security analysis showing – perhaps surprisingly – that the classic Lewko–Waters MA-ABE scheme [EUROCRYPT 2011] already achieves full adaptive security, provided its design is carefully reinterpreted and, more crucially, its security proof is re-orchestrated to conclude with an information-theoretic hybrid in place of the original target- group-based computational step. By dispensing with dual subsystems and target-group-based assumptions, we achieve a significantly simpler and tighter security proof along with a more lightweight implementation. Our construction reduces ciphertext size by 33 percent, shrinks user secret keys by 66 percent, and requires 50 percent fewer pairing operations during decryption – all while continuing to support arbitrary collusions of users and authorities. These improvements mark a notable advance over the state-of-the-art fully adaptive decentralized MA-ABE scheme of Datta et al. [EUROCRYPT 2023]. We instantiate the scheme in both composite-order bilinear groups under standard subgroup-decision assumptions and in asymmetric prime-order bilinear groups under the Matrix-Diffie–Hellman assumption. We further show how the Kowalczyk–Wee attribute-reuse technique [EUROCRYPT 2019] seamlessly lifts our construction from “one-use” boolean span programs (BSP) to “multi-use” policies computable in NC1, resulting in a similarly optimized construction over the state-of-the-art by Chen et al. [ASIACRYPT 2023].
 
-In this work, we are the first to show a function-hiding MCFE scheme for inner products, relying on standard bilinear group assumptions. Further, we prove *adaptive* security without the use of a random oracle. Our scheme also achieves succinct ciphertexts, that is,  each coordinate in the plaintext vector encrypts to only *O(1)* group elements.
-
-Our main technical contribution is a new upgrade from single-input functional encryption for inner-products to a multi-client one. Our upgrade preserves function privacy, that is, if the original single-input scheme is function-hiding, so is the resulting multi-client construction. Further, this new upgrade allows us to obtain a conceptually simple construction." /><meta property="og:image" content="https://nikhilvanjani.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
+Going beyond the Boolean world, we present the first MA-ABE construction for arithmetic span program (ASP) access policies, capturing a richer class of Boolean, arithmetic, and combinatorial computations. This advancement also enables improved concrete efficiency by allowing attributes to be handled directly as field elements, thereby eliminating the overhead of converting arithmetic computations into Boolean representations. The construction – again presented in composite and prime orders – retains decentralization and adaptive user-key security, and highlights inherent barriers to handling corrupted authorities in the arithmetic setting. " /><meta property="og:image" content="https://nikhilvanjani.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://nikhilvanjani.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2022-05-20T00:00:00&#43;00:00"
+        content="2024-08-10T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2023-01-25T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2025-08-21T00:00:00&#43;00:00">
   
 
   
@@ -354,16 +350,16 @@ Our main technical contribution is a new upgrade from single-input functional en
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://nikhilvanjani.github.io/publication/mcipe/"
+    "@id": "https://nikhilvanjani.github.io/publication/maabe_for_asp/"
   },
-  "headline": "Multi-Client Inner Product Encryption: Function-Hiding Instantiations Without Random Oracles",
+  "headline": "Fully Adaptive Decentralized MA-ABE: Simplified, Optimized, ASP Supported",
   
-  "datePublished": "2022-05-20T00:00:00Z",
-  "dateModified": "2023-01-25T00:00:00Z",
+  "datePublished": "2024-08-10T00:00:00Z",
+  "dateModified": "2025-08-21T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Elaine Shi"
+    "name": "Pratish Datta"
   },
   
   "publisher": {
@@ -374,7 +370,7 @@ Our main technical contribution is a new upgrade from single-input functional en
       "url": "https://nikhilvanjani.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "In a Multi-Client Functional Encryption (MCFE) scheme,  *n* clients each obtain a secret encryption key from  a trusted authority. During each time step *t*, each client *i* can encrypt its data using its secret key. The authority can use its master secret key to compute  a functional key given a function *f*, and the functional key can be applied to a collection of *n* clients' ciphertexts encrypted to the same time step, resulting in the outcome of *f* on the clients' data. In this paper, we focus on MCFE for *inner-product* computations.\n\nIf an MCFE scheme hides not only the clients' data, but also the function *f*,  we say it is *function hiding*. Although MCFE for inner-product computation has been extensively studied,  how to achieve function privacy is still poorly understood. The very recent work of Agrawal et al. showed how to construct a *function-hiding* MCFE scheme for inner-product  assuming standard bilinear group assumptions; however, they assume the existence of a random oracle and prove only a relaxed, selective security notion. An intriguing open question is whether we can achieve function-hiding MCFE for inner-product *without* random oracles.\n\nIn this work, we are the first to show a function-hiding MCFE scheme for inner products, relying on standard bilinear group assumptions. Further, we prove *adaptive* security without the use of a random oracle. Our scheme also achieves succinct ciphertexts, that is,  each coordinate in the plaintext vector encrypts to only *O(1)* group elements.\n\nOur main technical contribution is a new upgrade from single-input functional encryption for inner-products to a multi-client one. Our upgrade preserves function privacy, that is, if the original single-input scheme is function-hiding, so is the resulting multi-client construction. Further, this new upgrade allows us to obtain a conceptually simple construction."
+  "description": " We revisit decentralized multi-authority attribute-based encryption (MA-ABE) through the lens of fully adaptive security – the most realistic setting in which an adversary can decide on-the-fly which users and which attribute authorities to corrupt. Previous constructions either tolerated only static authority corruption or relied on highly complex “dual system with dual-subsystems” proof technique that inflated ciphertexts and keys.\n\nOur first contribution is a streamlined security analysis showing – perhaps surprisingly – that the classic Lewko–Waters MA-ABE scheme [EUROCRYPT 2011] already achieves full adaptive security, provided its design is carefully reinterpreted and, more crucially, its security proof is re-orchestrated to conclude with an information-theoretic hybrid in place of the original target- group-based computational step. By dispensing with dual subsystems and target-group-based assumptions, we achieve a significantly simpler and tighter security proof along with a more lightweight implementation. Our construction reduces ciphertext size by 33 percent, shrinks user secret keys by 66 percent, and requires 50 percent fewer pairing operations during decryption – all while continuing to support arbitrary collusions of users and authorities. These improvements mark a notable advance over the state-of-the-art fully adaptive decentralized MA-ABE scheme of Datta et al. [EUROCRYPT 2023]. We instantiate the scheme in both composite-order bilinear groups under standard subgroup-decision assumptions and in asymmetric prime-order bilinear groups under the Matrix-Diffie–Hellman assumption. We further show how the Kowalczyk–Wee attribute-reuse technique [EUROCRYPT 2019] seamlessly lifts our construction from “one-use” boolean span programs (BSP) to “multi-use” policies computable in NC1, resulting in a similarly optimized construction over the state-of-the-art by Chen et al. [ASIACRYPT 2023].\n\nGoing beyond the Boolean world, we present the first MA-ABE construction for arithmetic span program (ASP) access policies, capturing a richer class of Boolean, arithmetic, and combinatorial computations. This advancement also enables improved concrete efficiency by allowing attributes to be handled directly as field elements, thereby eliminating the overhead of converting arithmetic computations into Boolean representations. The construction – again presented in composite and prime orders – retains decentralization and adaptive user-key security, and highlights inherent barriers to handling corrupted authorities in the arithmetic setting. "
 }
 </script>
 
@@ -385,7 +381,7 @@ Our main technical contribution is a new upgrade from single-input functional en
   
 
 
-  <title>Multi-Client Inner Product Encryption: Function-Hiding Instantiations Without Random Oracles | Nikhil Vanjani</title>
+  <title>Fully Adaptive Decentralized MA-ABE: Simplified, Optimized, ASP Supported | Nikhil Vanjani</title>
 
   
   
@@ -405,7 +401,7 @@ Our main technical contribution is a new upgrade from single-input functional en
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="ac06365b37994d64d201b0edcffa302a" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="63517ef03f49f3c54a5554cc85cae7cb" >
 
   
   
@@ -741,7 +737,7 @@ Our main technical contribution is a new upgrade from single-input functional en
   
   
 <div class="article-container pt-3">
-  <h1>Multi-Client Inner Product Encryption: Function-Hiding Instantiations Without Random Oracles</h1>
+  <h1>Fully Adaptive Decentralized MA-ABE: Simplified, Optimized, ASP Supported</h1>
 
   
 
@@ -759,8 +755,9 @@ Our main technical contribution is a new upgrade from single-input functional en
     
 
   <span >
-      Elaine Shi</span>, <span >
-      Nikhil Vanjani (randomized author order)</span>
+      Pratish Datta</span>, <span >
+      Junichi Tomida</span>, <span >
+      Nikhil Vanjani</span>
   </div>
   
   
@@ -771,7 +768,7 @@ Our main technical contribution is a new upgrade from single-input functional en
     
       
     
-    January, 2023
+    August, 2025
   </span>
   
 
@@ -811,14 +808,14 @@ Our main technical contribution is a new upgrade from single-input functional en
 
 
 
-<a class="btn btn-outline-primary btn-page-header" href="/uploads/function-hiding-mcipe.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="/uploads/maabe_for_asp.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
-        data-filename="/publication/mcipe/cite.bib">
+        data-filename="/publication/maabe_for_asp/cite.bib">
   Cite
 </a>
 
@@ -830,44 +827,10 @@ Our main technical contribution is a new upgrade from single-input functional en
 
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="/uploads/function-hiding-mcipe.pptx" target="_blank" rel="noopener">
-  Slides
-</a>
 
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/RjiiGk2zy08?list=PLeeS-3Ml-rpo9QLhFqa16tPTNh2ZZadrW&amp;t=1028" target="_blank" rel="noopener">
-  Video
-</a>
 
-
-
-<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/10.1007/978-3-031-31368-4_22" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header" href="https://eprint.iacr.org/2023/615" target="_blank" rel="noopener">
-    ePrint</a>
 
 
 </div>
@@ -882,10 +845,9 @@ Our main technical contribution is a new upgrade from single-input functional en
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract"><p>In a Multi-Client Functional Encryption (MCFE) scheme,  <em>n</em> clients each obtain a secret encryption key from  a trusted authority. During each time step <em>t</em>, each client <em>i</em> can encrypt its data using its secret key. The authority can use its master secret key to compute  a functional key given a function <em>f</em>, and the functional key can be applied to a collection of <em>n</em> clients&rsquo; ciphertexts encrypted to the same time step, resulting in the outcome of <em>f</em> on the clients&rsquo; data. In this paper, we focus on MCFE for <em>inner-product</em> computations.</p>
-<p>If an MCFE scheme hides not only the clients&rsquo; data, but also the function <em>f</em>,  we say it is <em>function hiding</em>. Although MCFE for inner-product computation has been extensively studied,  how to achieve function privacy is still poorly understood. The very recent work of Agrawal et al. showed how to construct a <em>function-hiding</em> MCFE scheme for inner-product  assuming standard bilinear group assumptions; however, they assume the existence of a random oracle and prove only a relaxed, selective security notion. An intriguing open question is whether we can achieve function-hiding MCFE for inner-product <em>without</em> random oracles.</p>
-<p>In this work, we are the first to show a function-hiding MCFE scheme for inner products, relying on standard bilinear group assumptions. Further, we prove <em>adaptive</em> security without the use of a random oracle. Our scheme also achieves succinct ciphertexts, that is,  each coordinate in the plaintext vector encrypts to only <em>O(1)</em> group elements.</p>
-<p>Our main technical contribution is a new upgrade from single-input functional encryption for inner-products to a multi-client one. Our upgrade preserves function privacy, that is, if the original single-input scheme is function-hiding, so is the resulting multi-client construction. Further, this new upgrade allows us to obtain a conceptually simple construction.</p>
+    <p class="pub-abstract"><p>We revisit decentralized multi-authority attribute-based encryption (MA-ABE) through the lens of fully adaptive security – the most realistic setting in which an adversary can decide on-the-fly which users and which attribute authorities to corrupt. Previous constructions either tolerated only static authority corruption or relied on highly complex “dual system with dual-subsystems” proof technique that inflated ciphertexts and keys.</p>
+<p>Our first contribution is a streamlined security analysis showing – perhaps surprisingly – that the classic Lewko–Waters MA-ABE scheme [EUROCRYPT 2011] already achieves full adaptive security, provided its design is carefully reinterpreted and, more crucially, its security proof is re-orchestrated to conclude with an information-theoretic hybrid in place of the original target- group-based computational step. By dispensing with dual subsystems and target-group-based assumptions, we achieve a significantly simpler and tighter security proof along with a more lightweight implementation. Our construction reduces ciphertext size by 33 percent, shrinks user secret keys by 66 percent, and requires 50 percent fewer pairing operations during decryption – all while continuing to support arbitrary collusions of users and authorities. These improvements mark a notable advance over the state-of-the-art fully adaptive decentralized MA-ABE scheme of Datta et al. [EUROCRYPT 2023]. We instantiate the scheme in both composite-order bilinear groups under standard subgroup-decision assumptions and in asymmetric prime-order bilinear groups under the Matrix-Diffie–Hellman assumption. We further show how the Kowalczyk–Wee attribute-reuse technique [EUROCRYPT 2019] seamlessly lifts our construction from “one-use” boolean span programs (BSP) to “multi-use” policies computable in NC1, resulting in a similarly optimized construction over the state-of-the-art by Chen et al. [ASIACRYPT 2023].</p>
+<p>Going beyond the Boolean world, we present the first MA-ABE construction for arithmetic span program (ASP) access policies, capturing a richer class of Boolean, arithmetic, and combinatorial computations. This advancement also enables improved concrete efficiency by allowing attributes to be handled directly as field elements, thereby eliminating the overhead of converting arithmetic computations into Boolean representations. The construction – again presented in composite and prime orders – retains decentralization and adaptive user-key security, and highlights inherent barriers to handling corrupted authorities in the arithmetic setting.</p>
 </p>
     
 
@@ -914,7 +876,7 @@ Our main technical contribution is a new upgrade from single-input functional en
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In <strong>International Conference on Practice and Theory of Public-Key Cryptography (PKC)</strong>, 2023</div>
+          <div class="col-12 col-md-9">(To Appear) In <strong>Asiacrypt</strong>, 2025</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -945,7 +907,7 @@ Our main technical contribution is a new upgrade from single-input functional en
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://nikhilvanjani.github.io/publication/mcipe/&amp;text=Multi-Client%20Inner%20Product%20Encryption:%20Function-Hiding%20Instantiations%20Without%20Random%20Oracles" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://nikhilvanjani.github.io/publication/maabe_for_asp/&amp;text=Fully%20Adaptive%20Decentralized%20MA-ABE:%20Simplified,%20Optimized,%20ASP%20Supported" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -958,7 +920,7 @@ Our main technical contribution is a new upgrade from single-input functional en
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://nikhilvanjani.github.io/publication/mcipe/&amp;t=Multi-Client%20Inner%20Product%20Encryption:%20Function-Hiding%20Instantiations%20Without%20Random%20Oracles" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://nikhilvanjani.github.io/publication/maabe_for_asp/&amp;t=Fully%20Adaptive%20Decentralized%20MA-ABE:%20Simplified,%20Optimized,%20ASP%20Supported" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -971,7 +933,7 @@ Our main technical contribution is a new upgrade from single-input functional en
       
       
       <li>
-        <a href="mailto:?subject=Multi-Client%20Inner%20Product%20Encryption:%20Function-Hiding%20Instantiations%20Without%20Random%20Oracles&amp;body=https://nikhilvanjani.github.io/publication/mcipe/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Fully%20Adaptive%20Decentralized%20MA-ABE:%20Simplified,%20Optimized,%20ASP%20Supported&amp;body=https://nikhilvanjani.github.io/publication/maabe_for_asp/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -984,7 +946,7 @@ Our main technical contribution is a new upgrade from single-input functional en
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://nikhilvanjani.github.io/publication/mcipe/&amp;title=Multi-Client%20Inner%20Product%20Encryption:%20Function-Hiding%20Instantiations%20Without%20Random%20Oracles" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https://nikhilvanjani.github.io/publication/maabe_for_asp/&amp;title=Fully%20Adaptive%20Decentralized%20MA-ABE:%20Simplified,%20Optimized,%20ASP%20Supported" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1003,6 +965,12 @@ Our main technical contribution is a new upgrade from single-input functional en
 
 
   
+  
+    
+
+
+
+
   
     
 
