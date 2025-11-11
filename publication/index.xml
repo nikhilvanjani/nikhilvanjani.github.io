@@ -5,12 +5,28 @@
     <link>https://nikhilvanjani.github.io/publication/</link>
       <atom:link href="https://nikhilvanjani.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 09 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 02 Nov 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nikhilvanjani.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://nikhilvanjani.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Large-Universe (Multi-Authority) ABE from LWE</title>
+      <link>https://nikhilvanjani.github.io/publication/pq_abe_large_universe/</link>
+      <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://nikhilvanjani.github.io/publication/pq_abe_large_universe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unbounded Large-Universe Decentralized MA-ABE from Static Assumptions</title>
+      <link>https://nikhilvanjani.github.io/publication/maabe_large_universe/</link>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://nikhilvanjani.github.io/publication/maabe_large_universe/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>New Constructions of Functional Adaptor Signatures : Broader Functions and Improved Efficiency</title>
