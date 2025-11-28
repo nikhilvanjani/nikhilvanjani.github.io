@@ -5,7 +5,7 @@
     <link>https://nikhilvanjani.github.io/</link>
       <atom:link href="https://nikhilvanjani.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Nikhil Vanjani</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 02 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 02 Nov 2025 09:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nikhilvanjani.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Nikhil Vanjani</title>
@@ -13,114 +13,170 @@
     </image>
     
     <item>
+      <title> Large-Universe (Multi-Authority) ABE from LWE</title>
+      <link>https://nikhilvanjani.github.io/software/pq_abe_large_universe/</link>
+      <pubDate>Sun, 02 Nov 2025 09:00:00 +0000</pubDate>
+      <guid>https://nikhilvanjani.github.io/software/pq_abe_large_universe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Large-Universe (Multi-Authority) ABE from LWE</title>
-      <link>https://nikhilvanjani.github.io/publication/pq_abe_large_universe/</link>
+      <link>https://nikhilvanjani.github.io/publications/pq_abe_large_universe/</link>
       <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://nikhilvanjani.github.io/publication/pq_abe_large_universe/</guid>
+      <guid>https://nikhilvanjani.github.io/publications/pq_abe_large_universe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unbounded Large-Universe Decentralized MA-ABE from Static Assumptions</title>
-      <link>https://nikhilvanjani.github.io/publication/maabe_large_universe/</link>
+      <link>https://nikhilvanjani.github.io/publications/maabe_large_universe/</link>
       <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://nikhilvanjani.github.io/publication/maabe_large_universe/</guid>
+      <guid>https://nikhilvanjani.github.io/publications/maabe_large_universe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fully Adaptive Decentralized MA-ABE: Simplified, Optimized, ASP Supported</title>
-      <link>https://nikhilvanjani.github.io/talk/fully-adaptive-decentralized-ma-abe-simplified-optimized-asp-supported/</link>
+      <link>https://nikhilvanjani.github.io/talks/maabe_for_asp/</link>
       <pubDate>Thu, 11 Sep 2025 09:00:00 +0000</pubDate>
-      <guid>https://nikhilvanjani.github.io/talk/fully-adaptive-decentralized-ma-abe-simplified-optimized-asp-supported/</guid>
+      <guid>https://nikhilvanjani.github.io/talks/maabe_for_asp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Homomorphic Encryption-based Functional Fair Exchange for arbitrary functions</title>
+      <link>https://nikhilvanjani.github.io/software/fas_from_he/</link>
+      <pubDate>Tue, 09 Sep 2025 09:00:00 +0000</pubDate>
+      <guid>https://nikhilvanjani.github.io/software/fas_from_he/</guid>
       <description></description>
     </item>
     
     <item>
       <title>New Constructions of Functional Adaptor Signatures : Broader Functions and Improved Efficiency</title>
-      <link>https://nikhilvanjani.github.io/publication/fas_from_he/</link>
+      <link>https://nikhilvanjani.github.io/publications/fas_from_he/</link>
       <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://nikhilvanjani.github.io/publication/fas_from_he/</guid>
+      <guid>https://nikhilvanjani.github.io/publications/fas_from_he/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fully Adaptive Decentralized MA-ABE: Simplified, Optimized, ASP Supported</title>
-      <link>https://nikhilvanjani.github.io/publication/maabe_for_asp/</link>
+      <link>https://nikhilvanjani.github.io/publications/maabe_for_asp/</link>
       <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://nikhilvanjani.github.io/publication/maabe_for_asp/</guid>
+      <guid>https://nikhilvanjani.github.io/publications/maabe_for_asp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Performance Benchmarking of Plonky2 and Plonky3 zkSNARK libraries</title>
+      <link>https://nikhilvanjani.github.io/software/0xparc/</link>
+      <pubDate>Thu, 15 May 2025 09:00:00 +0000</pubDate>
+      <guid>https://nikhilvanjani.github.io/software/0xparc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ZK circuits in Circom</title>
+      <link>https://nikhilvanjani.github.io/software/circom_0xparc/</link>
+      <pubDate>Sat, 15 Mar 2025 09:00:00 +0000</pubDate>
+      <guid>https://nikhilvanjani.github.io/software/circom_0xparc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yao&#39;s Garbled Circuits</title>
+      <link>https://nikhilvanjani.github.io/software/garbled_circuits_0xparc/</link>
+      <pubDate>Sat, 15 Feb 2025 09:00:00 +0000</pubDate>
+      <guid>https://nikhilvanjani.github.io/software/garbled_circuits_0xparc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fair Exchange on Blockchains</title>
-      <link>https://nikhilvanjani.github.io/talk/fair-exchange-on-blockchains/</link>
+      <link>https://nikhilvanjani.github.io/talks/fas_utah/</link>
       <pubDate>Thu, 24 Oct 2024 09:00:00 +0000</pubDate>
-      <guid>https://nikhilvanjani.github.io/talk/fair-exchange-on-blockchains/</guid>
+      <guid>https://nikhilvanjani.github.io/talks/fas_utah/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Functional Adaptor Signatures: Beyond All-or-Nothing Blockchain-based Payments</title>
-      <link>https://nikhilvanjani.github.io/talk/functional-adaptor-signatures-beyond-all-or-nothing-blockchain-based-payments/</link>
+      <link>https://nikhilvanjani.github.io/talks/fas_ccs/</link>
       <pubDate>Tue, 15 Oct 2024 09:00:00 +0000</pubDate>
-      <guid>https://nikhilvanjani.github.io/talk/functional-adaptor-signatures-beyond-all-or-nothing-blockchain-based-payments/</guid>
+      <guid>https://nikhilvanjani.github.io/talks/fas_ccs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functional Encryption-based Functional Fair Exchange for linear functions</title>
+      <link>https://nikhilvanjani.github.io/software/fas/</link>
+      <pubDate>Tue, 15 Oct 2024 09:00:00 +0000</pubDate>
+      <guid>https://nikhilvanjani.github.io/software/fas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Functional Adaptor Signatures: Beyond All-or-Nothing Blockchain-based Payments</title>
-      <link>https://nikhilvanjani.github.io/publication/fas/</link>
+      <link>https://nikhilvanjani.github.io/publications/fas/</link>
       <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://nikhilvanjani.github.io/publication/fas/</guid>
+      <guid>https://nikhilvanjani.github.io/publications/fas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Non-Interactive Anonymous Router with Quasi-Linear Router Computation</title>
-      <link>https://nikhilvanjani.github.io/talk/non-interactive-anonymous-router-with-quasi-linear-router-computation/</link>
+      <link>https://nikhilvanjani.github.io/talks/niar/</link>
       <pubDate>Fri, 01 Dec 2023 09:00:00 +0000</pubDate>
-      <guid>https://nikhilvanjani.github.io/talk/non-interactive-anonymous-router-with-quasi-linear-router-computation/</guid>
+      <guid>https://nikhilvanjani.github.io/talks/niar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multi-Client Inner Product Encryption: Function-Hiding Instantiations Without Random Oracles</title>
-      <link>https://nikhilvanjani.github.io/talk/multi-client-inner-product-encryption-function-hiding-instantiations-without-random-oracles/</link>
+      <link>https://nikhilvanjani.github.io/talks/mcipe_pkc/</link>
       <pubDate>Tue, 09 May 2023 09:00:00 +0000</pubDate>
-      <guid>https://nikhilvanjani.github.io/talk/multi-client-inner-product-encryption-function-hiding-instantiations-without-random-oracles/</guid>
+      <guid>https://nikhilvanjani.github.io/talks/mcipe_pkc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Non-Interactive Anonymous Router with Quasi-Linear Router Computation</title>
-      <link>https://nikhilvanjani.github.io/publication/niar-quasi-linear/</link>
+      <link>https://nikhilvanjani.github.io/publications/niar-quasi-linear/</link>
       <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://nikhilvanjani.github.io/publication/niar-quasi-linear/</guid>
+      <guid>https://nikhilvanjani.github.io/publications/niar-quasi-linear/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multi-Client Inner Product Encryption: Function-Hiding Instantiations Without Random Oracles</title>
-      <link>https://nikhilvanjani.github.io/publication/mcipe/</link>
+      <link>https://nikhilvanjani.github.io/publications/mcipe/</link>
       <pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://nikhilvanjani.github.io/publication/mcipe/</guid>
+      <guid>https://nikhilvanjani.github.io/publications/mcipe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multi-Input Inner Product Encryption: Function-Hiding Instantiations without Random Oracles</title>
-      <link>https://nikhilvanjani.github.io/publication/masters_thesis/</link>
+      <link>https://nikhilvanjani.github.io/publications/masters_thesis/</link>
       <pubDate>Fri, 10 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://nikhilvanjani.github.io/publication/masters_thesis/</guid>
+      <guid>https://nikhilvanjani.github.io/publications/masters_thesis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multi-Input Inner Product Encryption: Function-Hiding Instantiations without Random Oracles</title>
-      <link>https://nikhilvanjani.github.io/talk/multi-input-inner-product-encryption-function-hiding-instantiations-without-random-oracles/</link>
+      <link>https://nikhilvanjani.github.io/talks/mife_cmu/</link>
       <pubDate>Mon, 22 Nov 2021 13:00:00 +0000</pubDate>
-      <guid>https://nikhilvanjani.github.io/talk/multi-input-inner-product-encryption-function-hiding-instantiations-without-random-oracles/</guid>
+      <guid>https://nikhilvanjani.github.io/talks/mife_cmu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EIP-2537 compliant precompile for BLS12-381 curve ops and BLS signatures</title>
+      <link>https://nikhilvanjani.github.io/software/algorand/</link>
+      <pubDate>Sun, 15 Aug 2021 09:00:00 +0000</pubDate>
+      <guid>https://nikhilvanjani.github.io/software/algorand/</guid>
       <description></description>
     </item>
     
@@ -205,17 +261,17 @@
     
     <item>
       <title>Attribute-based Signatures for Unbounded Circuits in the Random Oracle Model</title>
-      <link>https://nikhilvanjani.github.io/talk/attribute-based-signatures-for-unbounded-circuits-in-the-random-oracle-model/</link>
+      <link>https://nikhilvanjani.github.io/talks/iitm_abs/</link>
       <pubDate>Sat, 25 Jul 2020 13:00:00 +0000</pubDate>
-      <guid>https://nikhilvanjani.github.io/talk/attribute-based-signatures-for-unbounded-circuits-in-the-random-oracle-model/</guid>
+      <guid>https://nikhilvanjani.github.io/talks/iitm_abs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Obfuscation of Probabilistic Circuits and Applications</title>
-      <link>https://nikhilvanjani.github.io/talk/obfuscation-of-probabilistic-circuits-and-applications/</link>
+      <link>https://nikhilvanjani.github.io/talks/iitm_pio/</link>
       <pubDate>Fri, 15 Nov 2019 13:00:00 +0000</pubDate>
-      <guid>https://nikhilvanjani.github.io/talk/obfuscation-of-probabilistic-circuits-and-applications/</guid>
+      <guid>https://nikhilvanjani.github.io/talks/iitm_pio/</guid>
       <description></description>
     </item>
     
@@ -346,25 +402,25 @@ $$&lt;/p&gt;
     
     <item>
       <title>Two case studies on advances in Blockchains: Algorand, Zcash</title>
-      <link>https://nikhilvanjani.github.io/talk/two-case-studies-on-advances-in-blockchains-algorand-zcash/</link>
+      <link>https://nikhilvanjani.github.io/talks/iitk_blockchain/</link>
       <pubDate>Sun, 15 Apr 2018 13:00:00 +0000</pubDate>
-      <guid>https://nikhilvanjani.github.io/talk/two-case-studies-on-advances-in-blockchains-algorand-zcash/</guid>
+      <guid>https://nikhilvanjani.github.io/talks/iitk_blockchain/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fully Homomorphic Encryption</title>
-      <link>https://nikhilvanjani.github.io/talk/fully-homomorphic-encryption/</link>
+      <link>https://nikhilvanjani.github.io/talks/iitk_fhe/</link>
       <pubDate>Thu, 22 Mar 2018 13:00:00 +0000</pubDate>
-      <guid>https://nikhilvanjani.github.io/talk/fully-homomorphic-encryption/</guid>
+      <guid>https://nikhilvanjani.github.io/talks/iitk_fhe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>On Lattices, Learning With Errors, Random Linear Codes, and Cryptography</title>
-      <link>https://nikhilvanjani.github.io/talk/on-lattices-learning-with-errors-random-linear-codes-and-cryptography/</link>
+      <link>https://nikhilvanjani.github.io/talks/iitk_pqc/</link>
       <pubDate>Fri, 13 Oct 2017 13:00:00 +0000</pubDate>
-      <guid>https://nikhilvanjani.github.io/talk/on-lattices-learning-with-errors-random-linear-codes-and-cryptography/</guid>
+      <guid>https://nikhilvanjani.github.io/talks/iitk_pqc/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talks | Nikhil Vanjani</title>
+    <link>https://nikhilvanjani.github.io/talks/</link>
+      <atom:link href="https://nikhilvanjani.github.io/talks/index.xml" rel="self" type="application/rss+xml" />
+    <description>Talks</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 11 Sep 2025 09:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://nikhilvanjani.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Talks</title>
+      <link>https://nikhilvanjani.github.io/talks/</link>
+    </image>
+    
+    <item>
+      <title>Fully Adaptive Decentralized MA-ABE: Simplified, Optimized, ASP Supported</title>
+      <link>https://nikhilvanjani.github.io/talks/maabe_for_asp/</link>
+      <pubDate>Thu, 11 Sep 2025 09:00:00 +0000</pubDate>
+      <guid>https://nikhilvanjani.github.io/talks/maabe_for_asp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fair Exchange on Blockchains</title>
+      <link>https://nikhilvanjani.github.io/talks/fas_utah/</link>
+      <pubDate>Thu, 24 Oct 2024 09:00:00 +0000</pubDate>
+      <guid>https://nikhilvanjani.github.io/talks/fas_utah/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functional Adaptor Signatures: Beyond All-or-Nothing Blockchain-based Payments</title>
+      <link>https://nikhilvanjani.github.io/talks/fas_ccs/</link>
+      <pubDate>Tue, 15 Oct 2024 09:00:00 +0000</pubDate>
+      <guid>https://nikhilvanjani.github.io/talks/fas_ccs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Non-Interactive Anonymous Router with Quasi-Linear Router Computation</title>
+      <link>https://nikhilvanjani.github.io/talks/niar/</link>
+      <pubDate>Fri, 01 Dec 2023 09:00:00 +0000</pubDate>
+      <guid>https://nikhilvanjani.github.io/talks/niar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Client Inner Product Encryption: Function-Hiding Instantiations Without Random Oracles</title>
+      <link>https://nikhilvanjani.github.io/talks/mcipe_pkc/</link>
+      <pubDate>Tue, 09 May 2023 09:00:00 +0000</pubDate>
+      <guid>https://nikhilvanjani.github.io/talks/mcipe_pkc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Input Inner Product Encryption: Function-Hiding Instantiations without Random Oracles</title>
+      <link>https://nikhilvanjani.github.io/talks/mife_cmu/</link>
+      <pubDate>Mon, 22 Nov 2021 13:00:00 +0000</pubDate>
+      <guid>https://nikhilvanjani.github.io/talks/mife_cmu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Attribute-based Signatures for Unbounded Circuits in the Random Oracle Model</title>
+      <link>https://nikhilvanjani.github.io/talks/iitm_abs/</link>
+      <pubDate>Sat, 25 Jul 2020 13:00:00 +0000</pubDate>
+      <guid>https://nikhilvanjani.github.io/talks/iitm_abs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Obfuscation of Probabilistic Circuits and Applications</title>
+      <link>https://nikhilvanjani.github.io/talks/iitm_pio/</link>
+      <pubDate>Fri, 15 Nov 2019 13:00:00 +0000</pubDate>
+      <guid>https://nikhilvanjani.github.io/talks/iitm_pio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Two case studies on advances in Blockchains: Algorand, Zcash</title>
+      <link>https://nikhilvanjani.github.io/talks/iitk_blockchain/</link>
+      <pubDate>Sun, 15 Apr 2018 13:00:00 +0000</pubDate>
+      <guid>https://nikhilvanjani.github.io/talks/iitk_blockchain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fully Homomorphic Encryption</title>
+      <link>https://nikhilvanjani.github.io/talks/iitk_fhe/</link>
+      <pubDate>Thu, 22 Mar 2018 13:00:00 +0000</pubDate>
+      <guid>https://nikhilvanjani.github.io/talks/iitk_fhe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Lattices, Learning With Errors, Random Linear Codes, and Cryptography</title>
+      <link>https://nikhilvanjani.github.io/talks/iitk_pqc/</link>
+      <pubDate>Fri, 13 Oct 2017 13:00:00 +0000</pubDate>
+      <guid>https://nikhilvanjani.github.io/talks/iitk_pqc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
