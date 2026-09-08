@@ -5,12 +5,28 @@
     <link>https://nikhilvanjani.github.io/talks/</link>
       <atom:link href="https://nikhilvanjani.github.io/talks/index.xml" rel="self" type="application/rss+xml" />
     <description>Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 11 Sep 2025 09:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 19 May 2026 09:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nikhilvanjani.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Talks</title>
       <link>https://nikhilvanjani.github.io/talks/</link>
     </image>
+    
+    <item>
+      <title>New Constructions of Functional Adaptor Signatures: Broader Functions and Improved Efficiency</title>
+      <link>https://nikhilvanjani.github.io/talks/fas_from_he_sp/</link>
+      <pubDate>Tue, 19 May 2026 09:00:00 +0000</pubDate>
+      <guid>https://nikhilvanjani.github.io/talks/fas_from_he_sp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functional Fair Exchange: Beyond All-or-Nothing Data Exchange</title>
+      <link>https://nikhilvanjani.github.io/talks/functional_fair_exchange/</link>
+      <pubDate>Fri, 16 Jan 2026 09:00:00 +0000</pubDate>
+      <guid>https://nikhilvanjani.github.io/talks/functional_fair_exchange/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Fully Adaptive Decentralized MA-ABE: Simplified, Optimized, ASP Supported</title>

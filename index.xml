@@ -5,12 +5,44 @@
     <link>https://nikhilvanjani.github.io/</link>
       <atom:link href="https://nikhilvanjani.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Nikhil Vanjani</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 02 Nov 2025 09:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nikhilvanjani.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Nikhil Vanjani</title>
       <link>https://nikhilvanjani.github.io/</link>
     </image>
+    
+    <item>
+      <title>Non-Interactive Translation of Winternitz Signatures to Lamport Signatures via Secret Sharing</title>
+      <link>https://nikhilvanjani.github.io/publications/winternitz_to_lamport/</link>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://nikhilvanjani.github.io/publications/winternitz_to_lamport/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New Constructions of Functional Adaptor Signatures: Broader Functions and Improved Efficiency</title>
+      <link>https://nikhilvanjani.github.io/talks/fas_from_he_sp/</link>
+      <pubDate>Tue, 19 May 2026 09:00:00 +0000</pubDate>
+      <guid>https://nikhilvanjani.github.io/talks/fas_from_he_sp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functional Fair Exchange: Beyond All-or-Nothing Data Exchange</title>
+      <link>https://nikhilvanjani.github.io/talks/functional_fair_exchange/</link>
+      <pubDate>Fri, 16 Jan 2026 09:00:00 +0000</pubDate>
+      <guid>https://nikhilvanjani.github.io/talks/functional_fair_exchange/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functional Encryption and its Applications to Decentralized Systems</title>
+      <link>https://nikhilvanjani.github.io/publications/phd_thesis/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://nikhilvanjani.github.io/publications/phd_thesis/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title> Large-Universe (Multi-Authority) ABE from LWE</title>
@@ -53,7 +85,7 @@
     </item>
     
     <item>
-      <title>New Constructions of Functional Adaptor Signatures : Broader Functions and Improved Efficiency</title>
+      <title>New Constructions of Functional Adaptor Signatures: Broader Functions and Improved Efficiency</title>
       <link>https://nikhilvanjani.github.io/publications/fas_from_he/</link>
       <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://nikhilvanjani.github.io/publications/fas_from_he/</guid>
